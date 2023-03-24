@@ -1,0 +1,133 @@
+
+body ,html{
+ 
+  background-color: rgb(234, 179, 227);
+  margin: 0;
+  padding: 0;
+
+}
+.main-container{
+  background-image: url("Iphone\ background.jpg");
+  background-repeat: no-repeat; /* prevent background image from repeating */
+  background-position: left top;/* position the background image on the top left corner */
+  background-size: auto 100%;
+background-attachment: fixed;
+
+}
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  margin-top: 10px ;
+  margin-bottom: 70px;
+}
+
+
+h2{
+ font-size: 3em;
+ margin-top: 200px;
+ font-family: 'Trocchi, serif';
+ font-weight: bold;
+  border-bottom: 5px solid rgb(199, 134, 219);
+ white-space: nowrap;
+
+}
+
+.reviews{
+  color: rgb(214, 43, 151);
+  font-family: 'Trocchi, serif';
+  font-size: 1.5em;
+}
+
+
+
+.review {
+  border: 1px solid #ccc; /* add a border around the box */
+background-color: rgb(249, 254, 254);
+  padding: 20px;
+  width: 500px; 
+ display: inline-block;
+ justify-content: center;
+ height: 30em;
+ border-radius: 5px;
+ box-shadow: 8px 8px 15px  rgb(131, 128, 128);
+}
+
+#the-image{
+  width: 200px;
+  height: 200px;
+border-radius: 50%;
+display: block;
+margin: auto;
+border-right: 9px solid rgb(215, 147, 228);
+border-top: 3px solid rgb(215, 147, 228);
+
+}
+
+#author{
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 5px;
+}
+ #job{
+  text-align: center;
+  color: rgb(165, 70, 160);
+  font-family: 'Courier New', Courier, monospace;
+ }
+
+#info{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(165, 172, 173);
+}
+
+.button-container{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.prev-button{
+  margin-right: 5px;
+  background: none;
+  border: none;
+  color: rgb(235, 148, 228);
+}
+
+
+.prev-button:hover{
+  color: rgb(188, 38, 176)
+}
+
+.next-button{
+  margin-right: 5px;
+  background: none;
+  border: none;
+  color: rgb(235, 148, 228);
+}
+
+
+.next-button:hover{
+  color: rgb(188, 38, 176)
+}
+
+
+
+.random-button{
+  color: rgba(186, 63, 188, 0.858);
+  border-radius: 5px;
+  border: 3px solid  rgb(235, 191, 235) ;
+  margin-left: 208px; 
+  margin-top: 5px;
+  background-color: rgb(252, 253, 253);
+}
+
+.random-button:hover{
+  color: white;
+  background-color: rgba(186, 63, 188, 0.858);
+
+  }
